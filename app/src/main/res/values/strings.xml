@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FCF</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number_of_persons">1. Number of Person in your Family</string>
+    <string name="total_co2">The Total CO₂ produced by my family in a year is </string>
+    <string name="total_mango_trees"><![CDATA[Number of Mango trees age>10 years required to support my family for one year to make our Emission ZERO is]]></string>
+    <string name="navigation_get">(Swipe from Left end to Right for Navigation screen)</string>
+    <string name="shared_preferences">SharedPreferences</string>
+    <string name="preference_file_name">Avengers Preferences</string>
+    <string name="aboutApp"> Family CO₂ Footprint will help you to estimate your family CO₂ emission per year.</string>
+    <string name="d1">Number of person in your house describes about the CO₂ produced by human breathing, which accounts for nearly 1kg of CO₂ per day per person.</string>
+    <string name="d2">Considering petrol(driving fuel), a litre of this fuel runs for 12–15 km.And presently the cost per litre is nearly 101 Rs. By average, 2.3 kg of CO₂ emission is produced per litre of petrol.</string>
+    <string name="d3">Presently the electricity power rate is Rs 7/kWh(Rs 7 per unit).Indirectly 0.92 kg of CO₂ is produced per 1kWh of electricity power.  </string>
+    <string name="d4">BWSSB present water charge is Rs 11 per kilolitre. Energy intensity of urban water supply is 0.29kWh/m³ . </string>
+    <string name="d5">Weight of an average household LPG cylinder is 23.2 kg. 1 kg of LPG will emit approximately 1.662 kg of CO₂. </string>
+</resources>

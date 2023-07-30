@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="fragments.AboutAppFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:orientation="vertical">
+
+       <ImageView
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:layout_gravity="center"
+
+           android:layout_marginTop="100dp"
+           android:padding="8dp"
+
+           android:src="@drawable/co2iconforaboutapp" />
+
+       <TextView
+           android:id="@+id/txtAboutApp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="8dp"
+           android:layout_marginTop="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginBottom="8dp"
+           android:padding="3dp"
+           android:text="@string/aboutApp"
+           android:textColor = "?android:textColorPrimary"
+           android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtD1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d1"
+        android:textSize="16sp"
+        android:layout_below="@+id/txtAboutApp"
+        android:layout_margin="8dp"
+        android:textColor = "?android:textColorPrimary"
+        android:padding="3dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginTop="5dp"
+           android:background="#909090" />
+    <TextView
+        android:id="@+id/txtD2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d2"
+        android:textSize="16sp"
+        android:layout_below="@+id/txtAboutApp"
+        android:layout_margin="8dp"
+        android:textColor = "?android:textColorPrimary"
+        android:padding="3dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginTop="5dp"
+           android:background="#909090" />
+    <TextView
+        android:id="@+id/txtD3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d3"
+        android:textSize="16sp"
+        android:layout_below="@+id/txtD2"
+        android:layout_margin="8dp"
+        android:textColor = "?android:textColorPrimary"
+        android:padding="3dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginTop="5dp"
+           android:background="#909090" />
+    <TextView
+        android:id="@+id/txtD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d4"
+        android:textSize="16sp"
+        android:layout_below="@+id/txtD3"
+        android:layout_margin="8dp"
+        android:textColor = "?android:textColorPrimary"
+        android:padding="3dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginTop="5dp"
+           android:background="#909090" />
+    <TextView
+        android:id="@+id/txtD5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d5"
+        android:textSize="16sp"
+        android:layout_below="@+id/txtD4"
+        android:layout_margin="8dp"
+        android:textColor = "?android:textColorPrimary"
+        android:padding="3dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginTop="5dp"
+           android:background="#909090" />
+
+    <TextView
+        android:id="@+id/txtMadeBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app is made by Rushi Mayur under guidance of Sir Jayram Udupa "
+        android:layout_below="@id/txtD5"
+        android:textSize="14sp"
+        android:layout_margin="8dp"
+        android:padding="3dp"
+        android:textColor = "?android:textColorPrimary"/>
+
+
+
+   </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

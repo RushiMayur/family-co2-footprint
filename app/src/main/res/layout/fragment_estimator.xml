@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/leafy"
+    tools:context="fragments.EstimatorFragment">
+
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/etMessage"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"
+                  android:textSize="18sp"
+                  android:text="Enter all the Values with respect to your family"
+
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:textColor="#ffffff"
+                  android:padding="5dp"/>
+
+
+
+
+          </LinearLayout>
+
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+          <TextView
+              android:id="@+id/txtNumberOfPerson"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:text="@string/number_of_persons"
+              android:textSize="18sp"
+              android:textColor="#ffffff"
+              android:padding="15dp"/>
+          <EditText
+              android:id="@+id/etPerson"
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:hint="Enter"
+              android:textColorHint="#baf8ba"
+              android:textColor="@color/textgreen"
+              android:inputType="numberDecimal"
+              android:saveEnabled="true"
+              android:layout_marginLeft="20dp"
+
+              android:layout_below="@id/txtNumberOfPerson"
+              android:background="@color/bck"
+              android:padding="15dp"
+              android:textSize="18sp"/>
+
+
+
+          <TextView
+              android:id="@+id/txtPetrolCost"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:text="2. The Average Petrol Expenditure/Month"
+              android:textSize="18sp"
+              android:textColor="#ffffff"
+              android:layout_below="@id/etPerson"
+              android:padding="15dp"/>
+          <EditText
+              android:id="@+id/etPetrol"
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:hint="Enter in Rs"
+              android:textColor="@color/textgreen"
+              android:inputType="numberDecimal"
+              android:layout_marginLeft="20dp"
+              android:textColorHint="#baf8ba"
+              android:layout_below="@id/txtPetrolCost"
+              android:background="@color/bck"
+              android:padding="15dp"
+              android:textSize="18sp"/>
+          <TextView
+              android:id="@+id/txtElectricityCharge"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_below="@+id/etPetrol"
+              android:textColor="#ffffff"
+              android:text="3. Electricity Bill of the Month"
+              android:textSize="18sp"
+              android:padding="15dp"/>
+          <EditText
+              android:id="@+id/etElectricity"
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:hint="Enter in Rs"
+              android:inputType="numberDecimal"
+              android:textColor="@color/textgreen"
+              android:layout_marginLeft="20dp"
+              android:textColorHint="#baf8ba"
+              android:layout_below="@id/txtElectricityCharge"
+              android:background="@color/bck"
+              android:padding="15dp"
+              android:textSize="18sp"/>
+
+          <TextView
+              android:id="@+id/txtWaterBill"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:textColor="#ffffff"
+              android:layout_below="@+id/etElectricity"
+              android:text="4. Average Water Bill/Month"
+              android:textSize="18sp"
+              android:padding="15dp"/>
+          <EditText
+              android:id="@+id/etWater"
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:hint="Enter in Rs"
+              android:textColor="@color/textgreen"
+              android:layout_marginLeft="20dp"
+              android:inputType="numberDecimal"
+              android:layout_below="@id/txtWaterBill"
+              android:background="@color/bck"
+              android:textColorHint="#baf8ba"
+              android:padding="15dp"
+              android:textSize="18sp"/>
+          <TextView
+              android:id="@+id/txtLpgCylinderUsage"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:textColor="#ffffff"
+              android:layout_below="@+id/etWater"
+              android:text="5. Number of Lpg Cylinder Usage/Month"
+              android:textSize="18sp"
+              android:padding="15dp"/>
+          <EditText
+              android:id="@+id/etLpg"
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:hint="Number of LPG "
+              android:inputType="numberDecimal"
+              android:textColor="@color/textgreen"
+              android:layout_marginLeft="20dp"
+              android:textColorHint="#baf8ba"
+              android:layout_below="@id/txtLpgCylinderUsage"
+              android:background="@color/bck"
+              android:padding="12dp"
+              android:textSize="18sp"/>
+          <TextView
+              android:id="@+id/txtHouseHoldTravel"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_below="@+id/etLpg"
+              android:text="6. Average Travel for Household Things/Day"
+              android:textSize="18sp"
+              android:textColor="#ffffff"
+              android:padding="15dp"/>
+          <EditText
+              android:id="@+id/etHouseTravel"
+              android:layout_width="150dp"
+              android:layout_marginLeft="20dp"
+              android:layout_height="wrap_content"
+              android:hint="Enter in km"
+              android:textColorHint="#baf8ba"
+              android:inputType="numberDecimal"
+              android:textColor="@color/textgreen"
+              android:layout_below="@id/txtHouseHoldTravel"
+              android:background="@color/bck"
+              android:padding="15dp"
+              android:textSize="18sp"/>
+          <TextView
+              android:id="@+id/txtSchoolTravel"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:textColor="#ffffff"
+              android:layout_below="@+id/etHouseTravel"
+              android:text="7. Average Travel for Schooling or College/Day"
+              android:textSize="18sp"
+              android:padding="15dp"/>
+          <EditText
+              android:id="@+id/etSchool"
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:hint="Enter in km"
+              android:textColor="#FFFF00"
+              android:inputType="numberDecimal"
+              android:textColorHint="#baf8ba"
+              android:layout_below="@id/txtSchoolTravel"
+              android:background="@color/bck"
+              android:layout_marginLeft="20dp"
+              android:padding="15dp"
+              android:textSize="18sp"/>
+          <TextView
+              android:id="@+id/txtVacationTravel"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_below="@+id/etSchool"
+              android:textColor="#ffffff"
+              android:text="8. Family Travel During Vacations/Year"
+              android:textSize="18sp"
+              android:padding="15dp"/>
+          <EditText
+              android:id="@+id/etVacation"
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:hint="Enter in km"
+              android:inputType="numberDecimal"
+              android:textColor="@color/textgreen"
+              android:layout_below="@id/txtVacationTravel"
+              android:background="@color/bck"
+              android:layout_marginLeft="20dp"
+              android:textColorHint="#baf8ba"
+              android:padding="15dp"
+              android:textSize="18sp"/>
+
+              <Button
+                  android:id="@+id/btnGetResults"
+                  android:layout_width="500dp"
+                  android:layout_height="80dp"
+                  android:layout_below="@+id/etVacation"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginStart="15dp"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginEnd="15dp"
+                  android:layout_marginBottom="15dp"
+                  android:backgroundTint="#000000"
+                  android:background="@color/purple_500"
+                  android:padding="8dp"
+                  android:textColor="#ffffff"
+                  android:text="Get Estimation"
+                  android:textSize="18sp" />
+
+
+
+          </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

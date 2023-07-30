@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="total_co2">The Total CO2 produced by my family in a year is</string>
+    <string name="navigation_get">(Swipe left to right for Navigation screen)</string>
+    <string name="shared_preferences">SharedPreferences</string>
+</resources>
